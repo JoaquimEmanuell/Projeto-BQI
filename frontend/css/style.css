@@ -3,174 +3,14 @@
 
 :root {
   --font-login: "Roboto";
-  /* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126  
-   
-    Reset css(Resentando as config padrões dos elementos do html)*/
-  html,
-  body,
-  div,
-  span,
-  applet,
-  object,
-  iframe,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p,
-  blockquote,
-  pre,
-  a,
-  abbr,
-  acronym,
-  address,
-  big,
-  cite,
-  code,
-  del,
-  dfn,
-  em,
-  img,
-  ins,
-  kbd,
-  q,
-  s,
-  samp,
-  small,
-  strike,
-  strong,
-  sub,
-  sup,
-  tt,
-  var,
-  b,
-  u,
-  i,
-  center,
-  dl,
-  dt,
-  dd,
-  ol,
-  ul,
-  li,
-  fieldset,
-  form,
-  label,
-  legend,
-  table,
-  caption,
-  tbody,
-  tfoot,
-  thead,
-  tr,
-  th,
-  td,
-  article,
-  aside,
-  canvas,
-  details,
-  embed,
-  figure,
-  figcaption,
-  footer,
-  header,
-  hgroup,
-  menu,
-  nav,
-  output,
-  ruby,
-  section,
-  summary,
-  time,
-  mark,
-  audio,
-  video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-  }
-  /* HTML5 display-role reset for older browsers */
-  article,
-  aside,
-  details,
-  figcaption,
-  figure,
-  footer,
-  header,
-  hgroup,
-  menu,
-  nav,
-  section {
-    display: block;
-  }
-  body {
-    line-height: 1;
-  }
-  ol,
-  ul {
-    list-style: none;
-  }
-  blockquote,
-  q {
-    quotes: none;
-  }
-  blockquote:before,
-  blockquote:after,
-  q:before,
-  q:after {
-    content: "";
-    content: none;
-  }
-  table {
-    border-collapse: collapse;
-    border-spacing: 0;
-  }
 }
+
 /*Adicionando valores aos elementos*/
-body {
-  background-color: #000d54;
-  color: #e7ebff;
+main, header, h5 {
   font-family: var(--font-login);
 }
-
-#principal {
-  background-color: #3041a1;
-  border-radius: 12px;
-  margin-top: 50px;
-  padding-bottom: 20px;
-}
-
-#login {
-  padding: 10px 0px 10px 0px;
-}
-
-img {
-  height: 30px;
-}
-
 footer {
-  clear: both;
   margin: 20px;
-  text-align: center;
-}
-
-button {
-  background-color: #e7ebff;
-  border-radius: 15px;
-  border-color: #e7ebff;
-  padding: 5px 15px 5px 15px;
-  font-size: 20px;
-}
-
-.container {
-  min-width: 960px;
-  margin: 0 auto;
   text-align: center;
 }
 
@@ -181,3 +21,4 @@ button {
 .login {
     grid-template-columns: 2fr 2fr;
 }
+
